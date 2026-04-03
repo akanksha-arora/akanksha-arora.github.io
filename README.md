@@ -1,1 +1,1 @@
-I am a Ph.D. candidate in Economics at the University of California, Santa Barbara. My research lies at the intersection of education, labor markets and demography. I use causal inference methods to study how expansions in schooling and labor market opportunities have shaped women’s economic and demographic outcomes in developing countries such as India. 
+

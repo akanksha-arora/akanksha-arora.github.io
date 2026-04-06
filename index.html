@@ -2,7 +2,30 @@
 <html>
 <head>
   <style>
+    nav {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
     body {
+      <nav>
+  <a href="#about">About</a>
+  <a href="#research">Research</a>
+  <a href="CV - Akanksha Arora.pdf" target="_blank">CV</a>
+  <a href="#contact">Contact</a>
+</nav>
       max-width: 800px;
       margin: 60px auto;
       padding: 30px;
@@ -27,7 +50,7 @@
 </head>
 
 
-<h1>Akanksha Arora</h1>
+<h1 id="about">Akanksha Arora</h1>
 
 <p>
 I am a PhD candidate in Economics at the University of California, Santa Barbara, and I expect to complete my degree in June 2026.
@@ -48,7 +71,7 @@ I show how increased access to education affects not only women’s schooling at
 You can view my <a href="CV - Akanksha Arora.pdf">CV</a> here.
 </p>
 
-<h2>Research</h2>
+<h2 id="research">Research</h2>
 
 <div>
   <a href="JMP - Returns to Education in the Marriage Market - Akanksha Arora.pdf" target="_blank">
@@ -102,5 +125,11 @@ reduce overall fertility in the long-run.
   </details>
 </div>
 
+<h2 id="contact">Contact</h2>
 
+<p>Email: akanksha_arora@ucsb.edu</p>
+<p>
+  GitHub: <a href="https://akanksha-arora.github.io/" target="_blank">
+  akanksha-arora.github.io</a>
+</p>
 
